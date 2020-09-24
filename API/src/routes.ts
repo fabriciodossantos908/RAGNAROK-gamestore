@@ -1,10 +1,12 @@
-import express from 'express'
+import express, { json } from 'express'
+import GamesController from './controllers/gamesController';
 
 const routes = express.Router();
 
-routes.get('/', () => {
-    const teste = 'teste'
-    return teste
-})
+const gamesController = new GamesController();
 
-export default routes;
+routes.get('/games', gamesController.index);
+routes.post('/games', gamesController.create);
+
+
+export default routes;  

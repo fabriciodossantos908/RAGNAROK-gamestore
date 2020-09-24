@@ -3,9 +3,9 @@ import path from 'path'
 
 // connection to the database
 const db = Knex({
-    client: "mysql",
+    client: "sqlite3",
     connection: {
-        filename: path.resolve(__dirname, "database.mysql"),
+        filename: path.resolve(__dirname, "database.sqlite"),
     },
     useNullAsDefault: true,
 });

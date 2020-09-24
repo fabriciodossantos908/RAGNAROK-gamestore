@@ -1,0 +1,33 @@
+.page-header {
+  width: 100%;
+  height: 6rem;
+  border-bottom: 0.1rem solid black;
+}
+
+.top-bar-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: space-between;
+  background-color: var(--color-text-light);
+}
+
+.navbar-logo {
+  margin-top: 2rem;
+}
+
+.navbar-link {
+  margin-left: auto;
+  margin-right: 20rem;
+  margin-top: 2rem;
+}
+
+.navbar-link .navbar-link-item:first-child {
+  margin-right: 10rem;
+}
+
+.navbar-link-item {
+  text-decoration: none;
+  margin: 2rem;
+  color: black;
+}

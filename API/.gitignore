@@ -1,2 +1,5 @@
 #dependecies
 /node_modules
+
+/src/database/migrations/02_create_genre.ts
+/src/database/migrations/03_create_game_genre.ts

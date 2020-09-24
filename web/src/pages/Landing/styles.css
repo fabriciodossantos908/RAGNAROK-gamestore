@@ -1,0 +1,30 @@
+#page-landing {
+  width: 98vw;
+  height: 100vh;
+}
+
+/* page title */
+#landing-title {
+  width: 90%;
+  height: 40vh;
+  padding-top: 2rem;
+  padding-left: 10rem;
+}
+
+#landing-title h1 {
+  height: 40%;
+  text-align: center;
+}
+
+#landing-title p {
+  text-align: center;
+}
+
+/* card list */
+#cardlist {
+  width: 50px;
+  max-width: 60px;
+  height: auto;
+  padding-left: 5rem;
+  align-items: center;
+}
