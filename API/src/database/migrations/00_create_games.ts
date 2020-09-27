@@ -6,13 +6,14 @@ export async function up(knex: Knex) {
         table.string('name', 50).notNullable();
         table.string('image').notNullable();
         table.string('description', 500).notNullable();
-        table.string('genres', 100).notNullable();
         table.date('release_date').notNullable();
-        table.string('platforms', 150).notNullable();
         table.string('developer', 30).notNullable();
         table.string('publisher', 30).notNullable();
+        table.string('age_rating', 30).notNullable();
         table.string('player', 30).notNullable();
         table.integer('metacritic', 3).nullable();
+        table.string('tags', 500).nullable();
+        table.string('website').nullable();
         table.integer('price', 6).notNullable();
     })
 }

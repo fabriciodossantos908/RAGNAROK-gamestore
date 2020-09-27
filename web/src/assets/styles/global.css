@@ -1,10 +1,13 @@
 :root {
   font-size: 55%;
 
-  --color-primary-dark: #8c0327;
-  --color-primary-main: #bf0436;
-  --color-primary-light: #d90452;
-  --color-text-light: #f2f2f2d7;
+  --color-primary-dark: #474372;
+  --color-primary-main: #4F4B86;
+  --color-primary-light: #827DBD;
+  --color-secondary-dark: #8c0327;
+  --color-secondary-main: #bf0436;
+  --color-secondary-light: #d90452;
+  --color-text-light: #F1F1F1;
   --color-text-title-light: #f2f2f2f3;
 }
 
@@ -12,12 +15,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: var(--color-text-light);
 }
 
 html,
 body,
 #root {
   height: 100vh;
+  background-color: var(--color-primary-dark);
 }
 
 body {
@@ -41,6 +46,12 @@ textarea {
 .container {
   width: 90vw;
   max-width: 700px;
+}
+
+.flex-center {
+  display: flex;
+  align-content: space-between;
+  align-items: center;
 }
 
 /* Delimiting a responsive val */
